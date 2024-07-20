@@ -1,4 +1,4 @@
-﻿using ECommons.Logging;
+using ECommons.Logging;
 using Dalamud.Plugin;
 using ECommons.DalamudServices;
 using ECommons.GameFunctions;
@@ -20,7 +20,7 @@ using ECommons.EzHookManager;
 using ECommons.EzSharedDataManager;
 using Serilog.Events;
 using ECommons.EzIpcManager;
-using System;
+using System.Linq;
 using System.Reflection;
 using ECommons.Singletons;
 
