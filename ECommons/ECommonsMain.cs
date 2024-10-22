@@ -53,7 +53,7 @@ var type = "debug build with forms";
 var type = "unknown build";
 #endif
         PluginLog.Information($"This is ECommons v{typeof(ECommonsMain).Assembly.GetName().Version} ({type}) and {Svc.PluginInterface.InternalName} v{instance.GetType().Assembly.GetName().Version}. Hello!");
-        Svc.Log.MinimumLogLevel = LogEventLevel.Verbose;
+        //Svc.Log.MinimumLogLevel = LogEventLevel.Verbose;
         GenericHelpers.Safe(CmdManager.Init);
         if(modules.ContainsAny(Module.All, Module.ObjectFunctions))
         {
