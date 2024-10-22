@@ -8,7 +8,7 @@
 
     <PropertyGroup>
         <TargetFramework>net8.0-windows</TargetFramework>
-        <Platforms>x64</Platforms>
+        <Platforms>x64;AnyCPU</Platforms>
         <LangVersion>preview</LangVersion>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
